@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { Search, X } from 'lucide-react';
-import { weatherAPI } from '../services/weatherApi';
+import { weatherAPI } from '../services/weatherAPI';
 
 const SearchBar = ({ onCitySelect }) => {
   const [query, setQuery] = useState('');
