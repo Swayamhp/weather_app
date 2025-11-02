@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Settings, CloudRain, Heart } from "lucide-react";
-import WeatherCard from "../components/weatherCard";
+import WeatherCard from "../components/WeatherCard";
 import SearchBar from "../components/SearchBar";
 import SettingsModal from "../components/SettingsModal";
 import { fetchCurrentWeather } from "../store/weatherSlice";
